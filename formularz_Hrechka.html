@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Formularz: Hobby i umiejętności</title>
+</head>
+<body bgcolor="#FFFF99">
+
+<center><h1>Formularz: Hobby i umiejętności</h1></center>
+
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="post">
+
+<table border="0" width="100%">
+<tr>
+<td width="33%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Imię:</b> <input type="text" name="imie" size="22"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Nazwisko:</b> <input type="text" name="nazwisko" size="22"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Klasa:</b> <input type="text" name="klasa" size="22"><br><br>
+<b>Nr w dzienniku:</b> <input type="text" name="nr" size="22"><br><br>
+</td>
+
+<td  align="center"></td>
+
+
+
+<td width="33%">
+<b>Czy coś umiesz?</b><br><br>
+<input type="checkbox" name="umie" value="plywac"> Umiem pływać<br>
+<input type="checkbox" name="umie" value="html"> Umiem tworzyć pliki HTML<br>
+<input type="checkbox" name="umie" value="instrument"> Umiem grać na instrumentach<br>
+<input type="checkbox" name="umie" value="auto"> Umiem prowadzić auto<br>
+<input type="checkbox" name="umie" value="wedkowac"> Umiem wędkować<br><br>
+
+Jeżeli zaznaczyłeś „inne”, to opisz swoje hobby:<br>
+<input type="text" name="inne" size="30" maxlength="100">
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Nr klasy </b><br><br>
+<select name="nr_klasy_dol">
+<option value="1P">1P</option>
+<option value="2P">2P</option>
+<option value="3P">3P</option>
+<option value="4P">4P</option>
+<option value="1D">1D</option>
+<option value="2D">2D</option>
+<option value="3D">3D</option>
+<option value="4D">4D</option>
+<option value="1K">1K</option>
+<option value="2K">2K</option>
+<option value="3K">3K</option>
+<option value="4K">4K</option>
+</select><br><br>
+
+<b>Czy masz hobby?</b><br><br>
+<input type="radio" name="hobby" value="tak"> Tak<br>
+<input type="radio" name="hobby" value="nie"> Nie<br>
+<input type="radio" name="hobby" value="szukam"> Szukam<br><br>
+
+&nbsp&nbsp&nbspPodaj dzisiejszą datę:<br>
+&nbsp&nbsp&nbsp<input type="date" name="data"><br><br>
+
+&nbsp&nbsp&nbspPodaj czas:<br>
+&nbsp&nbsp&nbsp<input type="time" name="czas"><br><br>
+</td>
+
+<td colspan="2" align="center">
+<b>Jaki jest Twój ulubiony typ sportu / napis:</b><br><br>
+<input type="text" name="sport" size="40"><br><br>
+</td>
+</tr>
+
+<tr align="center" height="100">
+<td><a href="index.html"><button type="button" style="height:60px; width:150px;">Wróć</button></a></td>
+<td><input type="reset" value="Reset" style="height:60px; width:150px;"></td>
+<td><input type="submit" value="Wyślij formularz" style="height:60px; width:150px;"></td>
+</tr>
+</table>
+
+</form>
+
+</body>
+</html>
